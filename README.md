@@ -1,2 +1,2 @@
-# Telecommunication Company Customer Churn Predicton 
- Optimization of Churn Prediction on Telecommunication Company's customer data
+# Ecommerce Company Customer Churn Predicton 
+ Optimization of Churn Prediction on Ecommerce Company's customer data
