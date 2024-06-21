@@ -49,7 +49,9 @@ Data Processing and Exploratory Data Analysis (EDA)
 
 The data processing phase involves cleaning and preprocessing the dataset to en- sure its suitability for model training. This includes handling missing values, en- coding categorical variables, and scaling numerical features. Exploratory Data Analysis (EDA) is then conducted to gain insights into the dataset’s characteris- tics, identify correlations between features and churn, and uncover patterns that
 
-may influence customer behavior. ![](Aspose.Words.5747f703-4eb3-4f0b-b4cb-7d45ea9543d6.001.png) Outliers were removed as well during the preprocessing process of the project.
+may influence customer behavior. ![Aspose Words 5747f703-4eb3-4f0b-b4cb-7d45ea9543d6 001](https://github.com/Muhammad-Hamza-Khan-03/Ecommerce-Company-Customer-Churn-Predicton/assets/163638005/133ef50d-5363-4fcb-99a2-5b6f8a338f5e)
+
+Outliers were removed as well during the preprocessing process of the project.
 
 Exploratory Data Analysis (EDA) is then conducted to gain insights into the
 
@@ -59,21 +61,22 @@ Before removal of Outliers:
 
 Outliers are identified based on box plots as box plots have four quartiles and the datapoints occurring above third quadrant and below first quadrant are
 
-outliers. ![](Aspose.Words.5747f703-4eb3-4f0b-b4cb-7d45ea9543d6.002.png)
+outliers. ![Aspose Words 5747f703-4eb3-4f0b-b4cb-7d45ea9543d6 002](https://github.com/Muhammad-Hamza-Khan-03/Ecommerce-Company-Customer-Churn-Predicton/assets/163638005/bd535f71-6e52-465f-946f-fc64587c20fb)
 
 After removal:
 
-![](Aspose.Words.5747f703-4eb3-4f0b-b4cb-7d45ea9543d6.003.png)
+![Aspose Words 5747f703-4eb3-4f0b-b4cb-7d45ea9543d6 003](https://github.com/Muhammad-Hamza-Khan-03/Ecommerce-Company-Customer-Churn-Predicton/assets/163638005/dce829b6-1ebd-49d6-94f1-4dec9aa14b6e)
 
 Class Distribution:
 
-The class distribution has been visualized below in the form of Bar chart![](Aspose.Words.5747f703-4eb3-4f0b-b4cb-7d45ea9543d6.004.png)
+The class distribution has been visualized below in the form of Bar chart![Aspose Words 5747f703-4eb3-4f0b-b4cb-7d45ea9543d6 004](https://github.com/Muhammad-Hamza-Khan-03/Ecommerce-Company-Customer-Churn-Predicton/assets/163638005/0dc85804-b86d-4257-880a-28bc4e3c14fc)
+
 
 Class Imbalancing
 
 SMOTE Tomek: Resampling technique was used to address class imbalance.After applying SMOTE, we can see that the instances of both classes are same i.e 2891
 
-![](Aspose.Words.5747f703-4eb3-4f0b-b4cb-7d45ea9543d6.005.png)
+![Aspose Words 5747f703-4eb3-4f0b-b4cb-7d45ea9543d6 005](https://github.com/Muhammad-Hamza-Khan-03/Ecommerce-Company-Customer-Churn-Predicton/assets/163638005/03d8e17e-1d23-48c0-a35d-a994f15e4be3)
 
 Model Building
 
@@ -93,7 +96,7 @@ In our churn prediction project, we implemented logistic regression as a baselin
 - F1 Score: 0.85
 - ROC AUC: 0.91
 
-![](Aspose.Words.5747f703-4eb3-4f0b-b4cb-7d45ea9543d6.006.png)
+![Aspose Words 5747f703-4eb3-4f0b-b4cb-7d45ea9543d6 006](https://github.com/Muhammad-Hamza-Khan-03/Ecommerce-Company-Customer-Churn-Predicton/assets/163638005/9208a824-5f91-407b-ae61-73f2be698dd7)
 
 SVM
 
@@ -105,7 +108,9 @@ SVM is effective in high-dimensional spaces, making it well-suited for churn pre
 - F1 Score: 0.87
 - ROC AUC: 0.92
 
-![](Aspose.Words.5747f703-4eb3-4f0b-b4cb-7d45ea9543d6.007.png)
+
+![Aspose Words 5747f703-4eb3-4f0b-b4cb-7d45ea9543d6 007](https://github.com/Muhammad-Hamza-Khan-03/Ecommerce-Company-Customer-Churn-Predicton/assets/163638005/5ed29bac-0ef1-4c7a-b86a-c156c16af320)
+
 
 Random Forest
 
@@ -116,8 +121,7 @@ Random Forest, an ensemble learning method, was chosen for its robustness and ca
 - Recall: 0.88
 - F1 Score: 0.89
 - ROC AUC: 0.94
-
-![](Aspose.Words.5747f703-4eb3-4f0b-b4cb-7d45ea9543d6.008.png)
+![Aspose Words 5747f703-4eb3-4f0b-b4cb-7d45ea9543d6 008](https://github.com/Muhammad-Hamza-Khan-03/Ecommerce-Company-Customer-Churn-Predicton/assets/163638005/0032b462-d522-4500-b7ef-35decb2226aa)
 
 K Nearest Neighbor
 
@@ -129,7 +133,7 @@ KNN was utilized in our churn prediction project for its simplicity and flexibil
 - F1 Score: 0.82
 - ROC AUC: 0.88
 
-![](Aspose.Words.5747f703-4eb3-4f0b-b4cb-7d45ea9543d6.009.png)
+![Aspose Words 5747f703-4eb3-4f0b-b4cb-7d45ea9543d6 009](https://github.com/Muhammad-Hamza-Khan-03/Ecommerce-Company-Customer-Churn-Predicton/assets/163638005/1aadea7a-2b14-4d69-9e3b-a7d8117ad43f)
 
 Decision Tree
 
@@ -140,8 +144,8 @@ Decision trees were employed in our churn prediction project to create a hier- a
 - Recall: 0.82
 - F1 Score: 0.85
 - ROC AUC: 0.89
+![Aspose Words 5747f703-4eb3-4f0b-b4cb-7d45ea9543d6 010](https://github.com/Muhammad-Hamza-Khan-03/Ecommerce-Company-Customer-Churn-Predicton/assets/163638005/ba7a1bc4-f054-4089-a1d0-6ebec6140ce7)
 
-![](Aspose.Words.5747f703-4eb3-4f0b-b4cb-7d45ea9543d6.010.png)
 
 AdaBoost
 
@@ -153,7 +157,8 @@ AdaBoost, an ensemble learning technique, was employed to leverage the strengths
 - F1 Score: 0.88
 - ROC AUC: 0.93
 
-![](Aspose.Words.5747f703-4eb3-4f0b-b4cb-7d45ea9543d6.011.png)
+![Aspose Words 5747f703-4eb3-4f0b-b4cb-7d45ea9543d6 011](https://github.com/Muhammad-Hamza-Khan-03/Ecommerce-Company-Customer-Churn-Predicton/assets/163638005/1c3c496e-297e-43c2-9d2d-27c326da4b71)
+
 
 XGBoost
 
@@ -165,7 +170,8 @@ XGBoost, an optimized gradient boosting algorithm, was selected for its speed an
 - F1 Score: 0.90
 - ROC AUC: 0.95
 
-![](Aspose.Words.5747f703-4eb3-4f0b-b4cb-7d45ea9543d6.012.png)
+![Aspose Words 5747f703-4eb3-4f0b-b4cb-7d45ea9543d6 012](https://github.com/Muhammad-Hamza-Khan-03/Ecommerce-Company-Customer-Churn-Predicton/assets/163638005/c019bfec-4ac6-4fb7-ab09-5f9d67fc1baf)
+
 
 Gaussian Naive Bayes
 
@@ -177,7 +183,7 @@ Gaussian Naive Bayes was employed for its simplicity and efficiency in model- in
 - F1 Score: 0.81
 - ROC AUC: 0.86
 
-![](Aspose.Words.5747f703-4eb3-4f0b-b4cb-7d45ea9543d6.013.png)
+![Aspose Words 5747f703-4eb3-4f0b-b4cb-7d45ea9543d6 013](https://github.com/Muhammad-Hamza-Khan-03/Ecommerce-Company-Customer-Churn-Predicton/assets/163638005/894caa9a-573f-4818-9834-6889eba36036)
 
 Deep Neural Network (ANN)
 
@@ -193,9 +199,11 @@ Grid Search (on Random Classifier and ADABoost)
 
 The use of Grid Search is to find the optimal hyperparameters of a model which results in the most ’accurate’ predictions. This is reflected in the new and improved accuracy measures of the models. Both the accuracies of Ran- dom Classifier and ADABoost increase from 0.89 and 0.88 to 0.96 and 0.929 respectively.
 
-![](Aspose.Words.5747f703-4eb3-4f0b-b4cb-7d45ea9543d6.014.png)
+![Aspose Words 5747f703-4eb3-4f0b-b4cb-7d45ea9543d6 014](https://github.com/Muhammad-Hamza-Khan-03/Ecommerce-Company-Customer-Churn-Predicton/assets/163638005/19e74d95-a389-4202-b652-474dfddaa873)
 
-![](Aspose.Words.5747f703-4eb3-4f0b-b4cb-7d45ea9543d6.015.png)
+
+![Aspose Words 5747f703-4eb3-4f0b-b4cb-7d45ea9543d6 015](https://github.com/Muhammad-Hamza-Khan-03/Ecommerce-Company-Customer-Churn-Predicton/assets/163638005/4e8eb020-a7b9-40e5-9b7d-17fa14c5f795)
+
 
 Feature Extraction using RFECV
 
@@ -244,19 +252,23 @@ a chosen classifier (e.g., logistic regression, random forest) using cross-valid
 - Recall: 0.766082
 - F1-score: 0.722161
 
-Grid Search (on Random Classifier and XG-Boost)![](Aspose.Words.5747f703-4eb3-4f0b-b4cb-7d45ea9543d6.016.png)
+Grid Search (on Random Classifier and XG-Boost)![Aspose Words 5747f703-4eb3-4f0b-b4cb-7d45ea9543d6 016](https://github.com/Muhammad-Hamza-Khan-03/Ecommerce-Company-Customer-Churn-Predicton/assets/163638005/a4848f4f-84a4-406d-9e4d-e7d92e1555cc)
+
 
 Both the accuracies of Random Classifier and XG-Boost did not change that much in this case as feature extraction was already performed, not leaving much room for improvement. The values changed for Random Classifier and XG- Boost from 0.976 and 0.9775 to 0.976 and 0.974 respectively.
 
-![](Aspose.Words.5747f703-4eb3-4f0b-b4cb-7d45ea9543d6.017.png)
+![Aspose Words 5747f703-4eb3-4f0b-b4cb-7d45ea9543d6 017](https://github.com/Muhammad-Hamza-Khan-03/Ecommerce-Company-Customer-Churn-Predicton/assets/163638005/441d6a1e-2564-43b0-a423-29f1a4df7131)
 
-![](Aspose.Words.5747f703-4eb3-4f0b-b4cb-7d45ea9543d6.018.png)
+
+![Aspose Words 5747f703-4eb3-4f0b-b4cb-7d45ea9543d6 018](https://github.com/Muhammad-Hamza-Khan-03/Ecommerce-Company-Customer-Churn-Predicton/assets/163638005/3945a58a-313d-4c74-a77f-c3e2848c98ab)
+
 
 Results
 
 Here’s a comparison between the results before and after feature extraction showing the effect of feature extraction on the dataset:
 
-![](Aspose.Words.5747f703-4eb3-4f0b-b4cb-7d45ea9543d6.019.png)
+![Aspose Words 5747f703-4eb3-4f0b-b4cb-7d45ea9543d6 019](https://github.com/Muhammad-Hamza-Khan-03/Ecommerce-Company-Customer-Churn-Predicton/assets/163638005/1438bf66-a30d-4f7c-847e-19a881742d7e)
+
 
 As you can see, most models experienced a decrease in performance after fea- ture extraction, except for Random Forest and XGBoost, which showed an improvement. The performance of each model was compared to identify the best-performing algorithm/architecture. Thus, we were able to correctly iden- tify the models that should be used in our case. These are XG-Boost and Random Forest.
 
@@ -266,11 +278,14 @@ SHAP (SHapley Additive exPlanations) and LIME (Local Interpretable Model- agnost
 
 planations for complex models like SVM or neural networks, LIME focuses on providing local explanations for individual predictions. In our churn prediction project, LIME can help us understand why a specific customer was classified as a churner or non-churner by a complex model. For instance, if a customer receives a churn prediction from an SVM model, we can use LIME to gener- ate a local explanation for that prediction. LIME approximates the complex model’s decision boundary around the instance of interest, providing insights into which features influenced the prediction the most. This information can assist telecom companies in explaining churn predictions to stakeholders and taking targeted actions to mitigate customer churn. LIME is model agnostic, meaning it can be applied to any machine learning model without requiring knowledge of the model’s internal workings. It generates human-interpretable explanations by approximating the model’s decision boundary in the vicinity of a specific instance, making it easier to understand the reasons behind in- dividual predictions. SHAP provides global interpretability by summarizing the impact of each feature across the entire dataset. It also offers local inter- pretability by explaining individual predictions, allowing us to understand why a particular customer was classified as a churner. Both SHAP and LIME offer valuable insights into the predictions of machine learning models in churn pre- diction projects. While SHAP provides both global and local explanations for model predictions, LIME focuses on generating local explanations, making it particularly useful for understanding individual predictions in complex models.
 
-![](Aspose.Words.5747f703-4eb3-4f0b-b4cb-7d45ea9543d6.020.png)
+![Aspose Words 5747f703-4eb3-4f0b-b4cb-7d45ea9543d6 020](https://github.com/Muhammad-Hamza-Khan-03/Ecommerce-Company-Customer-Churn-Predicton/assets/163638005/0befc4a5-38ff-4cc0-bc09-f876f8531352)
 
-Figure1: This Shap graph gives us information about feature importance effects on individual instance,![](Aspose.Words.5747f703-4eb3-4f0b-b4cb-7d45ea9543d6.021.png) according to the graph, Tenure has most importance that can add up to 0.03 percent of prediction. Overall, the prediction done is Yes 51 percent and 49percent No. Lime Model represents that 3 features PrefferdLogin- Device,HoursonApp and Hours Spend are important for 0 Classification and
 
-Coupon Used and Num of Add for 1.![](Aspose.Words.5747f703-4eb3-4f0b-b4cb-7d45ea9543d6.022.jpeg)
+Figure1: This Shap graph gives us information about feature importance effects on individual instance,![Aspose Words 5747f703-4eb3-4f0b-b4cb-7d45ea9543d6 021](https://github.com/Muhammad-Hamza-Khan-03/Ecommerce-Company-Customer-Churn-Predicton/assets/163638005/204f67a9-dcef-4bb8-be2b-2e7900ba09e8)
+ according to the graph, Tenure has most importance that can add up to 0.03 percent of prediction. Overall, the prediction done is Yes 51 percent and 49percent No. Lime Model represents that 3 features PrefferdLogin- Device,HoursonApp and Hours Spend are important for 0 Classification and
+
+Coupon Used and Num of Add for 1.![Aspose Words 5747f703-4eb3-4f0b-b4cb-7d45ea9543d6 022](https://github.com/Muhammad-Hamza-Khan-03/Ecommerce-Company-Customer-Churn-Predicton/assets/163638005/9becf3af-6506-4a37-810d-ece4cbec2d22)
+
 
 Figure2: This graph gives us information about feature importance effects on in- dividual instance, according to the graph, Tenure has most importance that can add up to 0.3 percent of prediction. Lime represents Copon Used and Tenure as important for prediction of 0 class.
 
