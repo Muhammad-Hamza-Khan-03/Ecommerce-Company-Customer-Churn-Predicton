@@ -49,7 +49,7 @@ Data Processing and Exploratory Data Analysis (EDA)
 
 The data processing phase involves cleaning and preprocessing the dataset to en- sure its suitability for model training. This includes handling missing values, en- coding categorical variables, and scaling numerical features. Exploratory Data Analysis (EDA) is then conducted to gain insights into the dataset’s characteris- tics, identify correlations between features and churn, and uncover patterns that
 
-may influence customer behavior. ![](Aspose.Words.5747f703-4eb3-4f0b-b4cb-7d45ea9543d6.001.png) Outliers were removed as well during the preprocessing process of the project.
+may influence customer behavior. ![](Churn_Prediction_Report/Aspose.Words.5747f703-4eb3-4f0b-b4cb-7d45ea9543d6.001.png) Outliers were removed as well during the preprocessing process of the project.
 
 Exploratory Data Analysis (EDA) is then conducted to gain insights into the
 
